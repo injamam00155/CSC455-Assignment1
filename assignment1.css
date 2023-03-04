@@ -1,0 +1,65 @@
+body
+{
+    margin-left: 5%;
+}
+
+.week {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+.plan
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.weekbox
+{
+    background-color: #f3f4f6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slides
+{
+    background-color: #c3b6fd;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.startercode
+{
+    background-color: #92c5fd;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.checkoff-form
+{
+    background-color: #fda5a5;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.solution
+{
+    background-color: #86eeab;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
